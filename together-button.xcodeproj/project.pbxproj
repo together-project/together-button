@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0502EE0E989E763C2A908D88 /* Pods_together_button.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E90940FBD1E9A99824DF47 /* Pods_together_button.framework */; };
+		7AE1033424BBF24700CB07A3 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA9FE324BBC4B300411007 /* Menu.storyboard */; };
+		7AE1033524BBF25E00CB07A3 /* Together.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA9FE524BBC4D300411007 /* Together.swift */; };
+		7AE1033624BBF29900CB07A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA9FE624BBC4D900411007 /* Images.xcassets */; };
+		7AE1033724BBF29C00CB07A3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA9FE424BBC4B300411007 /* MenuViewController.swift */; };
 		7AEA9FCD24BBC41900411007 /* together_button.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEA9FCB24BBC41900411007 /* together_button.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -77,6 +81,7 @@
 		7AEA9FE024BBC49900411007 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7AEA9FE324BBC4B300411007 /* Menu.storyboard */,
 				7AEA9FE524BBC4D300411007 /* Together.swift */,
 			);
 			path = Model;
@@ -93,7 +98,6 @@
 		7AEA9FE224BBC4A500411007 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7AEA9FE324BBC4B300411007 /* Menu.storyboard */,
 				7AEA9FE424BBC4B300411007 /* MenuViewController.swift */,
 			);
 			path = View;
@@ -105,7 +109,6 @@
 				0C4D3BD09974B6740097F98D /* Pods-together-button.debug.xcconfig */,
 				8C2B810517B1CBC600E9ABF6 /* Pods-together-button.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,6 +182,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE1033424BBF24700CB07A3 /* Menu.storyboard in Resources */,
+				7AE1033624BBF29900CB07A3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE1033524BBF25E00CB07A3 /* Together.swift in Sources */,
+				7AE1033724BBF29C00CB07A3 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

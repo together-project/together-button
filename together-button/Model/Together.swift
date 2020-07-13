@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-class Together {
-    static let instance: Together = Together()
+public class Together {
+    public static let instance: Together = Together()
     
     private let mainVC: UIViewController!
     private let mainSB: UIStoryboard!
@@ -20,7 +20,7 @@ class Together {
         self.mainVC = mainSB.instantiateViewController(withIdentifier: "Menu")
     }
     
-    func show(sender: UIViewController) {
+    public func show(sender: UIViewController) {
         sender.present(self.mainVC, animated: true)
     }
     

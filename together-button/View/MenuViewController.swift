@@ -13,8 +13,6 @@ class MenuViewController: UIViewController {
     
     @IBOutlet weak var contentView: UIView!
     
-    @IBOutlet weak var closeButton: UIButton!
-    @IBOutlet weak var settingsButton: UIButton!
     @IBOutlet weak var leftButton: UIButton!
     @IBOutlet weak var rightButton: UIButton!
     
