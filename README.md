@@ -13,7 +13,7 @@ class MyViewController: UIViewController {
 
 	@IBAction func onActionButton(_ sender: Any) {
 		Together.instance.show(sender: self)
-    }
+	}
 
 }
 ```
