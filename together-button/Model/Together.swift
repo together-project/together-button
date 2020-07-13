@@ -12,12 +12,12 @@ import UIKit
 public class Together {
     public static let instance: Together = Together()
     
-    private let mainVC: UIViewController!
+    private let mainVC: MenuViewController!
     private let mainSB: UIStoryboard!
     
     private init() {
         self.mainSB = UIStoryboard(name: "Menu", bundle: Bundle(identifier: "together-button"))
-        self.mainVC = mainSB.instantiateViewController(withIdentifier: "Menu")
+        self.mainVC = mainSB.instantiateViewController(withIdentifier: "Menu") as! MenuViewController
     }
     
     public func show(sender: UIViewController) {
