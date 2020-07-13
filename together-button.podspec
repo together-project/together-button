@@ -32,13 +32,7 @@ s.source_files = "together-button/**/*.{swift}"
 # 9
 s.resources = "together-button/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
-s.resource_bundles = {
-	'together-button' => [
-		'together-button/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
-	]
-}
-
 # 10
-s.swift_version = "4.2"
+s.swift_version = "5.0"
 
 end
