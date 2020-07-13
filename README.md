@@ -4,6 +4,7 @@ Together Button is built to allow the user of the application to report and rece
 ### Example
 ```
 import UIKit
+import together-button
 
 class MyViewController: UIViewController {
 
