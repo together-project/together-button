@@ -16,7 +16,7 @@ public class Together {
     private let mainSB: UIStoryboard!
     
     private init() {
-        self.mainSB = UIStoryboard(name: "Menu", bundle: nil)
+        self.mainSB = UIStoryboard(name: "Menu", bundle: Bundle(identifier: "together-button"))
         self.mainVC = mainSB.instantiateViewController(withIdentifier: "Menu")
     }
     
