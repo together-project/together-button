@@ -9,14 +9,14 @@
 import UIKit
 import ContactsUI
 
-class MenuViewController: UIViewController {
+public class MenuViewController: UIViewController {
     
     @IBOutlet weak var contentView: UIView!
     
     @IBOutlet weak var leftButton: UIButton!
     @IBOutlet weak var rightButton: UIButton!
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         
         contentView.layer.cornerRadius = 40.0
