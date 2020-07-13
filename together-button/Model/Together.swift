@@ -1,10 +1,4 @@
-//
-//  Together.swift
-//  together-ios-project
-//
-//  Created by otavio on 02/07/20.
-//  Copyright © 2020 together project. All rights reserved.
-//
+
 
 import Foundation
 import UIKit
@@ -16,8 +10,8 @@ public class Together {
     private let mainSB: UIStoryboard!
     
     private init() {
-        self.mainSB = UIStoryboard(name: "Menu", bundle: Bundle(identifier: "together-button"))
-        self.mainVC = mainSB.instantiateViewController(withIdentifier: "Menu") as! MenuViewController
+        self.mainSB = UIStoryboard(name: "Menu", bundle: Bundle(for: Together.self))
+        self.mainVC = (mainSB.instantiateViewController(withIdentifier: "Menu") as! MenuViewController)
     }
     
     public func show(sender: UIViewController) {
