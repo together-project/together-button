@@ -1,4 +1,10 @@
-
+//
+//  HelpViewController.swift
+//  together-button-develop
+//
+//  Created by otavio on 06/08/20.
+//  Copyright © 2020 together. All rights reserved.
+//
 
 import Foundation
 import UIKit
@@ -10,8 +16,8 @@ public class Together {
     private let mainSB: UIStoryboard!
     
     private init() {
-        self.mainSB = UIStoryboard(name: "Menu", bundle: Bundle(for: Together.self))
-        self.mainVC = (mainSB.instantiateViewController(withIdentifier: "Menu") as! MenuViewController)
+        self.mainSB = UIStoryboard(name: "Flow", bundle: Bundle(for: Together.self))
+        self.mainVC = mainSB.instantiateViewController(withIdentifier: "Menu") as? MenuViewController
     }
     
     public func show(sender: UIViewController) {
