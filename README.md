@@ -4,18 +4,18 @@ Together Button is built to allow the user of the application to report and rece
 ### Example
 ```
 import UIKit
-import together-button
+import together_button
 
-class MyViewController: UIViewController {
+class ViewController: UIViewController {
 
-	.
-	.
-	.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 
-	@IBAction func onActionButton(_ sender: Any) {
-		Together.instance.show(sender: self)
-	}
-
+    @IBAction func onActionButton(_ sender: Any) {
+        Together.instance.show(sender: self)
+    }
+    
 }
 ```
 
