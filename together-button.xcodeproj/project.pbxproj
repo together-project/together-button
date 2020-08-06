@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0502EE0E989E763C2A908D88 /* Pods_together_button.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E90940FBD1E9A99824DF47 /* Pods_together_button.framework */; };
-		7AE1033424BBF24700CB07A3 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA9FE324BBC4B300411007 /* Menu.storyboard */; };
 		7AE1033624BBF29900CB07A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA9FE624BBC4D900411007 /* Images.xcassets */; };
-		7AE1033724BBF29C00CB07A3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA9FE424BBC4B300411007 /* MenuViewController.swift */; };
 		7AE1033824BBF40B00CB07A3 /* Together.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA9FE524BBC4D300411007 /* Together.swift */; };
 		7AEA9FCD24BBC41900411007 /* together_button.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEA9FCB24BBC41900411007 /* together_button.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AF544D724DC7F6600DE5EED /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF544D624DC7F6600DE5EED /* Service.swift */; };
+		7AF544D924DC800500DE5EED /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF544D824DC800500DE5EED /* PhoneNumber.swift */; };
+		7AF544DB24DC803200DE5EED /* ServiceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF544DA24DC803200DE5EED /* ServiceRepository.swift */; };
+		7AF544E124DC819700DE5EED /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF544DE24DC819700DE5EED /* HelpViewController.swift */; };
+		7AF544E224DC819700DE5EED /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF544DF24DC819700DE5EED /* ServicesViewController.swift */; };
+		7AF544E324DC819700DE5EED /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF544E024DC819700DE5EED /* MenuViewController.swift */; };
+		7AF544E724DC824600DE5EED /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF544E624DC824600DE5EED /* ServicesTableViewCell.swift */; };
+		7AF544E924DC830500DE5EED /* Flow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF544E824DC830500DE5EED /* Flow.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +26,16 @@
 		7AEA9FC824BBC41900411007 /* together_button.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = together_button.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEA9FCB24BBC41900411007 /* together_button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = together_button.h; sourceTree = "<group>"; };
 		7AEA9FCC24BBC41900411007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AEA9FE324BBC4B300411007 /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
-		7AEA9FE424BBC4B300411007 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		7AEA9FE524BBC4D300411007 /* Together.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Together.swift; sourceTree = "<group>"; };
 		7AEA9FE624BBC4D900411007 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AF544D624DC7F6600DE5EED /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7AF544D824DC800500DE5EED /* PhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		7AF544DA24DC803200DE5EED /* ServiceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRepository.swift; sourceTree = "<group>"; };
+		7AF544DE24DC819700DE5EED /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpViewController.swift; path = "together-button/Controller/HelpViewController.swift"; sourceTree = SOURCE_ROOT; };
+		7AF544DF24DC819700DE5EED /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServicesViewController.swift; path = "together-button/Controller/ServicesViewController.swift"; sourceTree = SOURCE_ROOT; };
+		7AF544E024DC819700DE5EED /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = "together-button/Controller/MenuViewController.swift"; sourceTree = SOURCE_ROOT; };
+		7AF544E624DC824600DE5EED /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
+		7AF544E824DC830500DE5EED /* Flow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Flow.storyboard; sourceTree = "<group>"; };
 		8C2B810517B1CBC600E9ABF6 /* Pods-together-button.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-together-button.release.xcconfig"; path = "Target Support Files/Pods-together-button/Pods-together-button.release.xcconfig"; sourceTree = "<group>"; };
 		A8E90940FBD1E9A99824DF47 /* Pods_together_button.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_together_button.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,9 +81,10 @@
 		7AEA9FCA24BBC41900411007 /* together-button */ = {
 			isa = PBXGroup;
 			children = (
-				7AEA9FE224BBC4A500411007 /* View */,
-				7AEA9FE124BBC49F00411007 /* Resources */,
 				7AEA9FE024BBC49900411007 /* Model */,
+				7AEA9FE224BBC4A500411007 /* View */,
+				7AF544DC24DC807800DE5EED /* Controller */,
+				7AEA9FE124BBC49F00411007 /* Resources */,
 				7AEA9FCB24BBC41900411007 /* together_button.h */,
 				7AEA9FCC24BBC41900411007 /* Info.plist */,
 			);
@@ -81,8 +94,10 @@
 		7AEA9FE024BBC49900411007 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7AEA9FE324BBC4B300411007 /* Menu.storyboard */,
 				7AEA9FE524BBC4D300411007 /* Together.swift */,
+				7AF544D624DC7F6600DE5EED /* Service.swift */,
+				7AF544D824DC800500DE5EED /* PhoneNumber.swift */,
+				7AF544DA24DC803200DE5EED /* ServiceRepository.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,9 +113,28 @@
 		7AEA9FE224BBC4A500411007 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7AEA9FE424BBC4B300411007 /* MenuViewController.swift */,
+				7AF544E624DC824600DE5EED /* ServicesTableViewCell.swift */,
+				7AF544DD24DC814600DE5EED /* Storyboards */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7AF544DC24DC807800DE5EED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AF544E024DC819700DE5EED /* MenuViewController.swift */,
+				7AF544DE24DC819700DE5EED /* HelpViewController.swift */,
+				7AF544DF24DC819700DE5EED /* ServicesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AF544DD24DC814600DE5EED /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7AF544E824DC830500DE5EED /* Flow.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		A37182EDBF1DFB85779D7DC3 /* Pods */ = {
@@ -182,7 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE1033424BBF24700CB07A3 /* Menu.storyboard in Resources */,
+				7AF544E924DC830500DE5EED /* Flow.storyboard in Resources */,
 				7AE1033624BBF29900CB07A3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +253,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE1033724BBF29C00CB07A3 /* MenuViewController.swift in Sources */,
+				7AF544E224DC819700DE5EED /* ServicesViewController.swift in Sources */,
 				7AE1033824BBF40B00CB07A3 /* Together.swift in Sources */,
+				7AF544DB24DC803200DE5EED /* ServiceRepository.swift in Sources */,
+				7AF544E324DC819700DE5EED /* MenuViewController.swift in Sources */,
+				7AF544D724DC7F6600DE5EED /* Service.swift in Sources */,
+				7AF544E724DC824600DE5EED /* ServicesTableViewCell.swift in Sources */,
+				7AF544D924DC800500DE5EED /* PhoneNumber.swift in Sources */,
+				7AF544E124DC819700DE5EED /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
