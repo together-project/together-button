@@ -4,7 +4,7 @@ Together Button is built to allow the user of the application to report and rece
 ### Example
 On the [use case repository](https://github.com/together-project/together-button-use-case) you can find an example of implementation.
 
-```
+```swift
 import UIKit
 import together_button
 
